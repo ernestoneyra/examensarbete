@@ -1,0 +1,128 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    margin-top: 7%;
+  }
+  .profile-parent {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+  }
+  .profile-details-name {
+    font-size: 24px;
+    
+  }
+  .profile-details-role {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+  }
+  .profile-details-role h1 {
+    font-size: 35px;
+ 
+  }
+  .primary-text {
+    color: (--white);
+    font-size: 40px;
+  }
+  .highlighted-text {
+    color: #ff5823;
+  }
+  .profile-role-tagline {
+    font-size: 19px;
+    margin: 5px 0 0 0;
+   
+  }
+  
+  .profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+  }
+  .profile-picture-background {
+    height: 92%;
+    width: 92%;
+    border-radius: 50%;
+    background-image: url("../../../images/profile\ image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .profile-picture-background:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+  }
+  
+  .colz .colz-icon a {
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+  }
+  .colz .cols-icon a:hover {
+    transform: scale(1.5);
+  }
+  .colz {
+      margin-bottom: 5px;
+  }
+
+ 
+  
+  /*IPAD PRO RESPONSIVENESS*/
+  @media only screen and (max-width: 1110px) {
+    .profile-picture {
+      margin: 0 0px 0 80px;
+    }
+    .profile-details-name {
+      font-size: 20px;
+    }
+    .profile-details-role .primary-text {
+      font: 12px;
+    }
+   
+  }
+  @media only screen and (max-width: 910px) {
+    .profile-picture {
+      margin: 0 0 0 4px;
+      height: 320px;
+      width: 320px;
+    }
+  }
+  @media only screen and (max-width: 810px) {
+    .profile-picture {
+      margin: 0 !important;
+    }
+    .profile-parent {
+      flex-direction: column-reverse;
+      margin: 40px 0 0 0;
+    }
+   
+    .proflie-details {
+      margin: 25px 0 0;
+    }
+   
+    .profile-details-name,
+    .profile-details-role {
+      text-align: center;
+    }
+  }
+ 
+  
+  @media only screen and (max-width: 375px) {
+    .profile-picture {
+      height: 275px;
+      width: 275px;
+      margin-top: -90px;
+    }
+    .proflie-details {
+      width: 95%;
+    }
+  }

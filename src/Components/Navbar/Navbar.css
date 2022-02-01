@@ -1,0 +1,43 @@
+/* NAVBAR */
+
+/* .app-navbar-links {
+    margin-right: 17%;
+} */
+.app-navbar {
+    color: white;
+    min-height: 7vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   /*  background-color: black; */
+}
+
+.app-navbar-links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 22px;
+
+}
+
+.app-navbar-links a:hover {
+    color: orange;
+}
+
+
+@media only screen and(max-width: 700px) {
+
+    .app-navbar-links {
+        width: 100%;
+        margin: 0;
+    }
+
+    .app-navbar-links a {
+        display: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0.5rem 1rem;
+    }
+
+}
