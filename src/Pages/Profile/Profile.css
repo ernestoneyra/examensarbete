@@ -57,7 +57,7 @@ html, body{
     height: 92%;
     width: 92%;
     border-radius: 50%;
-    background-image: url("../images/profile\ image.jpg");
+    background-image: url("/public/images/profileimage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
