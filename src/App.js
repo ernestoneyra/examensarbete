@@ -2,7 +2,7 @@ import "./App.css";import { BrowserRouter as Router, Routes, Route } from "react
 import * as ROUTES from "./Constants/routes";
 import initFontAwesome from "./Constants/initFontAwesome";
 import { useEffect, useState } from "react";
-import {Container} from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 //import Home from "./Pages/Home/Home";
