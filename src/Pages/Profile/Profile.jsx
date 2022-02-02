@@ -6,7 +6,7 @@ const facebook = <FontAwesomeIcon icon={["fab", "facebook"]} />;
 const linkedin = <FontAwesomeIcon icon={["fab", "linkedin"]} />;
 const github = <FontAwesomeIcon icon={["fab", "github"]} />;
 
-export default function Profile() {
+const Profile = () => {
   return (
     <>
       <div className="profile-container">
@@ -49,3 +49,5 @@ export default function Profile() {
     </>
   );
 }
+
+export default Profile

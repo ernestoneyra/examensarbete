@@ -1,15 +1,11 @@
 const mongoose = require("mongoose");
 
-const schoolSchema = new mongoose.Schema({
-  title: {
+const educationSchema = new mongoose.Schema({
+  name: {
     type: String,
     required: true,
   },
-  duration: {
-    type: String,
-    required: true,
-  },
-  description: {
+  city: {
     type: String,
     required: true,
   },
@@ -17,17 +13,14 @@ const schoolSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  image: {
+  description: {
     type: String,
     required: true,
   },
-  link: {
+  duration: {
     type: String,
     required: true,
-  },
-  tutorial: {
-    type: String,
   },
 });
 
-module.exports = mongoose.model("School", schoolSchema);
+module.exports = mongoose.model("Education", educationSchema);

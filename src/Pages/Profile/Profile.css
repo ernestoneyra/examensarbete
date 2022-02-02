@@ -30,7 +30,7 @@
     font-size: 40px;
   }
   .highlighted-text {
-    color: #ff5823;
+    color: var(--orange);
   }
   .profile-role-tagline {
     font-size: 19px;

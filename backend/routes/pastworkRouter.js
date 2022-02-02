@@ -1,8 +1,8 @@
 const express = require("express");
 const expressAsyncHandler = require("express-async-handler");
 const pastWorkRouter = express.Router();
-const School = require("../models/pastwork.js");
-const data = require("../data.js");
+const School = require("../models/pastwork");
+const data = require("../data");
 
 // Getting all work
 pastWorkRouter.get(

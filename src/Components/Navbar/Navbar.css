@@ -12,7 +12,8 @@
    /*  background-color: black; */
 }
 
-.app-navbar-links a {
+
+.app-navbar-links .navlink {
     text-decoration: none;
     color: white;
     margin-right: 20px;
@@ -20,8 +21,12 @@
 
 }
 
-.app-navbar-links a:hover {
+.app-navbar-links .navlink:hover {
     color: orange;
+}
+
+.navbar-hidden{
+    display: none;
 }
 
 
@@ -32,12 +37,82 @@
         margin: 0;
     }
 
-    .app-navbar-links a {
-        display: none;
+  /*   .app-navbar-links a {
+        
         display: flex;
         flex-direction: column;
         width: 100%;
         padding: 0.5rem 1rem;
-    }
+        
+    } */
+
 
 }
+
+@media (max-width: 867px) {
+    .navbar-hidden{
+        align-items: right;
+        display: grid;
+        justify-content: right;
+        flex-direction: column;
+       
+    }
+   /*  .hamburger{
+        font-size: 60px;
+    } */
+    .navbar-visible{
+        display: none;
+    }
+    .app-navbar-links .navlink{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.navBar {
+    position: relative;
+  }
+  
+  .navBar button {
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    z-index: 100;
+    cursor: pointer;
+    background: transparent;
+  border: none;
+  }
+  
+  .menuNav {
+    overflow-y: scroll;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    background: rgb(48, 82, 82);
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    max-width: 290px;
+    z-index: 10;
+  }
+  
+  .menuNav.showMenu {
+    width: 100%;
+   
+  }
+  
+  .hida {
+    display: block;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #3fffd2;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+   
+  }
+  
+  .menuNav li:first-child {
+    margin-top: 7rem;
+  }
