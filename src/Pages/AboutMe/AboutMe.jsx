@@ -3,7 +3,10 @@ import React from "react";
 const AboutMe = () => {
   return (
     <>
-      <div className="pages-background">About me</div>
+      <div className="container">
+<div className="">Om mig</div>
+    </div>
+      
     </>
   );
 };

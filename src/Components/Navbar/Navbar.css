@@ -35,6 +35,7 @@
     .app-navbar-links {
         width: 100%;
         margin: 0;
+       
     }
 
   /*   .app-navbar-links a {
@@ -55,6 +56,7 @@
         display: grid;
         justify-content: right;
         flex-direction: column;
+      
        
     }
    /*  .hamburger{
@@ -66,6 +68,7 @@
     .app-navbar-links .navlink{
         display: flex;
         flex-direction: column;
+        
     }
 }
 
@@ -96,6 +99,7 @@
     overflow: hidden;
     max-width: 290px;
     z-index: 10;
+    
   }
   
   .menuNav.showMenu {
@@ -110,6 +114,7 @@
     color: #3fffd2;
     /* text-transform: uppercase; */
     font-weight: bold;
+    margin-top: 40px;
    
   }
   

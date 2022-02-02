@@ -4,7 +4,7 @@ const pastEducationRouter = express.Router();
 const Education = require("../models/education.js");
 const data = require("../data.js");
 
-//Getting all education
+//Inserting all education
 pastEducationRouter.get(
   "/seed",
   expressAsyncHandler(async (req, res) => {
@@ -17,6 +17,7 @@ pastEducationRouter.get(
   })
 );
 
+//Getting all education
 pastEducationRouter.get(
   "/",
   expressAsyncHandler(async (req, res) => {

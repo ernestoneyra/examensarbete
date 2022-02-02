@@ -1,10 +1,6 @@
 import React from "react";
 import "./Profile.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-const facebook = <FontAwesomeIcon icon={["fab", "facebook"]} />;
-const linkedin = <FontAwesomeIcon icon={["fab", "linkedin"]} />;
-const github = <FontAwesomeIcon icon={["fab", "github"]} />;
+import { UilFacebook, UilLinkedin, UilGithub } from "@iconscout/react-unicons";
 
 const Profile = () => {
   return (
@@ -15,11 +11,13 @@ const Profile = () => {
             <div className="colz">
               <div className="colz-icon">
                 <a href="https://www.facebook.com/ernesto.neyra.18/">
-                  {facebook}
+                  <UilFacebook color="#fff" />
                 </a>
-                <a href="https://github.com/ernestoneyra">{github}</a>
+                <a href="https://github.com/ernestoneyra">
+                  <UilGithub color="#fff" />
+                </a>
                 <a href="https://www.linkedin.com/in/ernesto-neyra">
-                  {linkedin}
+                  <UilLinkedin color="#fff" />
                 </a>
               </div>
             </div>
@@ -31,13 +29,13 @@ const Profile = () => {
               </span>
             </div>
             <div className="profile-details-role">
-             
               <span className="primary-text">
                 <h1>Junior Frontend Utvecklare</h1>
               </span>
 
               <span className="profile-role-tagline">
-                En framtida talang i att bygga applikationer i front och back end.
+                En framtida talang i att bygga applikationer i front och back
+                end.
               </span>
             </div>
           </div>
@@ -48,6 +46,6 @@ const Profile = () => {
       </div>
     </>
   );
-}
+};
 
-export default Profile
+export default Profile;

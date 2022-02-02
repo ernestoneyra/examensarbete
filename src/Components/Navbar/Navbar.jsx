@@ -5,7 +5,9 @@ import { BrowserRouter as Link, NavLink } from "react-router-dom";
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 
-const Background = () => {
+const Navbar = () => {
+
+ 
   const [show, setShow] = useState(false);
 
   const handleToggle = () => {
@@ -47,6 +49,7 @@ const Background = () => {
             color: isActive ? "#FF5C00" : "#fff",
           })}
           to={ROUTES.PORTFOLIO}
+          
         >
           Portfolio
         </NavLink>
@@ -149,4 +152,4 @@ const Background = () => {
   );
 };
 
-export default Background;
+export default Navbar;

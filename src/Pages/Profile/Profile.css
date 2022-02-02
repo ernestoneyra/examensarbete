@@ -7,6 +7,11 @@
     min-height: fit-content;
     margin-top: 7%;
   }
+html, body{
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.644);
+}
+
   .profile-parent {
     display: flex;
     align-items: center;
@@ -52,7 +57,7 @@
     height: 92%;
     width: 92%;
     border-radius: 50%;
-    background-image: url("../../../images/profile\ image.jpg");
+    background-image: url("../images/profile\ image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
