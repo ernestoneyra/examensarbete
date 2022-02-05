@@ -4,18 +4,16 @@ import { UilGithub } from "@iconscout/react-unicons";
 import Carousel from "react-bootstrap/Carousel";
 
 const Portfolio = ({ projects }) => {
-  //console.log("portfolio", projects);
-
- 
+ //console.log("portfolio", projects);
 
    const mappedProjects2 = () => {
     return projects.map((project, i) => {
-      let { title, description, duration, image, link, subHeading, tutorial } =
+      let { title, description, duration, image, link, subHeading, tutorial, alt } =
         project;
 
       return (
         <div key={i} className="projects-outer text">
-          <img src={image} alt="first slide of projects" />
+          <img src={image} alt={alt} />
           <div>
             <h2>{title}</h2>
             <span>{subHeading}</span>
@@ -38,13 +36,13 @@ const Portfolio = ({ projects }) => {
   const mappedProjects = () => {
     return (
       <Carousel>
-        {projects.map((project) => (
+        {projects.map((project, id) => (
           <Carousel.Item>
-            <div key={project._id} className="projects-outer text">
+            <div key={id} className="projects-outer text">
               <img
                 className="d-block w-100"
                 src={project.image}
-                alt="first slide of projects"
+                alt={project.alt}
               />
 
               <div>

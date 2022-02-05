@@ -9,6 +9,7 @@ const data = {
       image: "/images/Portfolio/lanekalkylator.jpg",
       link: "https://github.com/ernestoneyra/JSExam",
       tutorial: "",
+      alt: "En lånekalkylator"
     },
     {
       title: "Instaclone",
@@ -19,6 +20,7 @@ const data = {
       image: "/images/Portfolio/socialapp.jpg",
       link: "https://github.com/ernestoneyra/social-media-app/tree/main/social-media-app",
       tutorial: "Tutorial",
+      alt: "En koln av Instagram"
     },
     {
       title: "Amaclon",
@@ -29,6 +31,7 @@ const data = {
       image: "/images/Portfolio/amaclon.jpg",
       link: "https://github.com/ernestoneyra/AmaClon/tree/deploy",
       tutorial: "Tutorial",
+      alt: "En klon av Amazon"
     },
     {
       title: "Highscore list",
@@ -39,6 +42,7 @@ const data = {
       image: "/images/Portfolio/highscore.jpg",
       link: "https://github.com/ernestoneyra/highscore",
       tutorial: "",
+      alt: "En lista med spela och deras highscores"
     },
     {
       title: "Kontakts",
@@ -49,6 +53,7 @@ const data = {
       image: "/images/Portfolio/kontakts.jpg",
       link: "https://github.com/ali-Alrubaye/scrum_group3",
       tutorial: "",
+      alt: "En kontaktbok"
     },
     {
       title: "Hitta en bok",
@@ -59,6 +64,7 @@ const data = {
       image: "/images/Portfolio/böcker.jpg",
       link: "https://github.com/ernestoneyra/bibliotek-app/tree/master",
       tutorial: "",
+      alt: "En sök app för bilbiotek. "
     },
   ],
   education: [

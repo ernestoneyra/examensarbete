@@ -1,0 +1,144 @@
+.form-central-form {
+    max-width: 1100px;
+    padding: 10px;
+    display: flex;
+/*     box-shadow: 0 0 20px -2px black; */
+    border-radius: 12px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.form-central-form h1 {
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+    
+}
+
+.contact-me-container{
+    text-align: left;
+    color: white;
+}
+
+.form-back-form {
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.form-back-form .form-img-back {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-img-back p {
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form-back-form .form-img-back img {
+    width: 100%;
+}
+
+.form-central-form form {
+    width: auto;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form p {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--dark-orange);
+    letter-spacing: 0.1rem;
+}
+
+form label {
+    margin-top: 5px;
+    letter-spacing: 0.05rem;
+}
+
+form input,
+textarea {
+    width: 100%;
+    border: 2px solid black;
+    outline: none;
+    background-color: lightgrey;
+    padding: 0.5rem, 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+textarea:focus {
+    border: 2px solid var(--orange);
+    background-color: white;
+}
+
+form input:focus {
+    border: solid 2px var(--orange);
+    background-color: white;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 5px;
+    outline: none;
+    width: 160px;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+form button:hover {
+    border: 2px solid var(--orange);
+    color: white;
+    transition: all ease 0.6s;
+    background-color: var(--orange);
+}
+
+form button span {
+    margin-right: 15px;
+    font-size: 20px;
+    padding: 0;
+}
+
+
+
+.form-col svg {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.form-col svg:hover {
+    transform: scale(1.5);
+    transition: ease 0.6s;
+}
+@media screen and (min-width: 940px) {
+    .form-back-form {
+        max-width: 1100px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+  
+    .form-img-back {
+        flex: 1;
+        align-self: center;
+        margin-right: 20px;
+    }
+  
+    form {
+        flex: 0.9;
+    }
+  }
+  @media screen and (max-width: 414px) {
+    .form-central-form h1 {
+        font-size: 16px;
+      }
+  }

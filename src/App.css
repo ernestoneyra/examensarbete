@@ -3,22 +3,23 @@
 
 
 }
-.container{
+/* .container2{
   padding-top: 2%;
-}
+  color: var(--white);
+} */
 html,
 body,
 #app,
 #app > div {
    /*  height: 100vh; */
     overflow: auto;
-    background-color: var(--body-background);
-    color: white;
-    }/* .pages-background{
+    background-color: #262626 !important;
+    color: var(--white);
+  } /*   .pages-background{
   background-color: black;
   color: white;
    height: 93vh; 
-} */
+} */ 
 
 
     /* .App-header {
@@ -33,7 +34,7 @@ body,
 }
  */:root
     {
-        --body-background: rgba(0, 0, 0, 0.644);
+        --body-background: rgba(0, 0, 0, 0.750);
         --light-blue: #04c3ff;
         --light-blue-shadow: rgb(69 211 255 / 27%);
         --sea-green: #0abead;
