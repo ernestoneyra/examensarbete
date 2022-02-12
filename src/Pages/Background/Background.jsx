@@ -1,40 +1,95 @@
-import React, { useState } from "react";
+import React from "react";
+import { ProgressBar } from "react-bootstrap";
+import { programmingSkillsDetails } from "../../Constants/staticData";
 import "./Background.css";
 
-const Background = (props) => {
-  //const [selectedBullet, setSelectedBullet] = useState(0);
-  //const [carousalOffSetStyle, setCarousalOffSetStyle] = useState({});
+const Background = ({ works, educations }) => {
+  /* console.log("interests", interests)
+  console.log("works", works)
+  console.log("educations", educations) */
+  console.log("programmingSkillsDetails", programmingSkillsDetails);
 
-  const BackgroundHeading = (props) => {
-    {/* <div className="background-heading">
-      <div className="background-main-heading">
-        <div className="heading-bullet">
-          <span>{props.heading ? props.heading : ""}</span>
-          {props.duration ? (
-            <div className="heading-date">{props.duration}</div>
-          ) : (
-            <div></div>
-          )}
-        </div>
-        <div className="background-sub-heading">
-          <span>{props.subHeading ? props.subHeading : ""} </span>
-        </div>
-        <div className="background-heading-description">
-          <span>{props.description ? props.description : ""} </span>
-        </div>
-      </div>
-    </div>; */}
+  const mappedSkillDetails = () => {
+    return programmingSkillsDetails.map((skills, i) => {
+      let { skill, ratingPercentage } = skills;
+      return (
+        <>
+          <div key={i} className="background-skills-container">
+          
+            <div className="background-skills-skills">{skill} </div>
+            <div className="background-skills-rating">
+              <ProgressBar  now={ratingPercentage} />
+            </div>
+           
+          </div>
+        </>
+      );
+    });
+  };
+
+  const mappedEducation = () => {
+    return educations.map((education, i) => {
+      let { title, city, subHeading, description, duration } = education;
+
+      return (
+        <>
+          <div key={i} className="">
+            <div>{title} </div>
+            <div>{subHeading} </div>
+            <div className="">{description} </div>
+            <div>
+              {city} {duration}{" "}
+            </div>
+            <br />
+          </div>
+        </>
+      );
+    });
+  };
+
+  const mappedWorks = () => {
+    return works.map((work, i) => {
+      let { workplace, role, duration, did, city } = work;
+
+      return (
+        <>
+          <div key={i}>
+            <div>
+              {workplace}, {city}{" "}
+            </div>
+            <div>
+              {role} <div>{did} </div>
+            </div>
+            <div>{duration} </div>
+            <br />
+          </div>
+        </>
+      );
+    });
   };
 
   return (
     <>
-    <div className="container">
-    <div>Background</div>
-      {/* <div className="background-container screen-container">
-        <div className="background-content"></div>
-      </div> */}
-    </div>
-      
+      <div className="container">
+        <div className="background-outer">
+          <main className="background-items">
+            <div className="h5">Färdigheter</div>
+            <div className="background-skills">
+              <div> {mappedSkillDetails()}</div>
+            </div>
+            <br />
+            <div className="h5">Utbildning</div>
+            <div className="background-education">
+              <div> {mappedEducation()} </div>
+            </div>{" "}
+            <br />
+            <div className="h5">Jobb</div>
+            <div className="background-work">
+              <div>{mappedWorks()} </div>
+            </div>
+          </main>
+        </div>
+      </div>
     </>
   );
 };

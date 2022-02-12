@@ -1,0 +1,72 @@
+/* .aboutme-outer {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+   
+} */
+.aboutme-mapped{
+    max-width: 1200px;
+    text-align: left;
+    margin-right: 200px;
+}
+.aboutme-central img{
+    margin-top: 16px;
+    max-width: 300px;
+  height: auto;
+}
+li{
+    color: var(--orange);
+    font-size: 20px;
+    
+}
+.aboutme-list{
+    margin-top: 70px;
+}
+li span{
+    
+    color: white;
+    
+    
+}
+.aboutme-central{
+    padding: 10px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+@media (max-width: 867px){
+    .aboutme-central{
+        padding: 10px;
+        display: flex;
+        align-items: right;
+        justify-content: right;
+       flex-direction: column;
+    }
+    .aboutme-mapped{
+       margin-right: auto;
+    }
+    .aboutme-central img{
+        max-width: 250px;
+    
+    }
+    .aboutme-list{
+        margin-top: 0px;
+    }
+}
+@media (max-width: 375px){
+    .aboutme-central{
+        padding: 10px;
+        display: flex;
+        align-items: right;
+        justify-content: right;
+       
+    }
+    .aboutme-mapped{
+       margin-right: auto;
+    }
+    .aboutme-central img{
+        max-width: 250px;
+    
+    }
+}

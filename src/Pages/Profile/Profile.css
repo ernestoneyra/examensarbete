@@ -1,4 +1,4 @@
-.profile-container {
+.container {
     display: flex;
     align-items: center;
     text-align: center;
@@ -57,6 +57,7 @@ html, body{
     height: 110%;
     width: 110%;
     border-radius: 20%;
+    margin-top: 200px;
   /*   background-image: url("/public/images/profileimage.jpg"); */
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
@@ -107,7 +108,7 @@ html, body{
       margin: 0 !important;
     }
     .profile-picture-background {
-   
+   margin-top: 0px;
     margin-bottom: 15%;
     }
     .profile-parent {

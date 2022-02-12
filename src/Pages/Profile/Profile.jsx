@@ -6,7 +6,7 @@ import { UilFacebook, UilLinkedin, UilGithub } from "@iconscout/react-unicons";
 const Profile = () => {
   return (
     <>
-      <div className="profile-container">
+      <div className="container">
         <div className="profile-parent">
           <div className="profile-details">
             <div className="colz">
