@@ -132,9 +132,9 @@ form input:focus {
 }
 
 form button {
-    margin-top: 15px;
+   /*  margin-top: 15px; */
     padding: 5px;
-    outline: none;
+   /*  outline: none; */
     width: 160px;
     border-radius: 15px;
     background-color: white;
