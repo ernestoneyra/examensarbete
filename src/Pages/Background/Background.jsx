@@ -15,12 +15,10 @@ const Background = ({ works, educations }) => {
       return (
         <>
           <div key={i} className="background-skills-container">
-          
             <div className="background-skills-skills">{skill} </div>
             <div className="background-skills-rating">
-              <ProgressBar  now={ratingPercentage} />
+              <ProgressBar now={ratingPercentage} />
             </div>
-           
           </div>
         </>
       );
@@ -34,7 +32,7 @@ const Background = ({ works, educations }) => {
       return (
         <>
           <div key={i} className="">
-            <div>{title} </div>
+            <div className="h5">{title} </div>
             <div>{subHeading} </div>
             <div className="">{description} </div>
             <div>
@@ -49,14 +47,12 @@ const Background = ({ works, educations }) => {
 
   const mappedWorks = () => {
     return works.map((work, i) => {
-      let { workplace, role, duration, did, city } = work;
+      let { workplace, role, duration, did } = work;
 
       return (
         <>
           <div key={i}>
-            <div>
-              {workplace}, {city}{" "}
-            </div>
+            <h5>{workplace} </h5>
             <div>
               {role} <div>{did} </div>
             </div>
@@ -73,18 +69,18 @@ const Background = ({ works, educations }) => {
       <div className="container">
         <div className="background-outer">
           <main className="background-items">
-            <div className="h5">Färdigheter</div>
             <div className="background-skills">
+              <h4>Färdigheter</h4>
               <div> {mappedSkillDetails()}</div>
             </div>
             <br />
-            <div className="h5">Utbildning</div>
             <div className="background-education">
+              <h4>Utbildning</h4>
               <div> {mappedEducation()} </div>
             </div>{" "}
             <br />
-            <div className="h5">Jobb</div>
             <div className="background-work">
+              <h4>Jobb</h4>
               <div>{mappedWorks()} </div>
             </div>
           </main>

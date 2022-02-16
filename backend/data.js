@@ -89,7 +89,7 @@ const data = {
       city: "Sundsvall",
       subHeading: "Information- och PR",
       description:
-        "Studier inom kommunikationsvetenskap och pr samt crm. Kurser inom marknadskommunikation, ledarskap och organisationskommunikation.",
+        "Studier inom kommunikationsvetenskap och PR samt CRM. Studerade bl.a marknadskommunikation, ledarskap, retorik och design. Media- och kommunikationsvetenskap examen",
       duration: "2012-2016",
     },
     /* {

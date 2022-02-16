@@ -1,11 +1,13 @@
 .form-central-form {
     max-width: 1200px;
     padding: 10px;
+    
     /*  display: flex; */
     /*  box-shadow: 0 0 20px -2px black; */
     border-radius: 12px;
     margin: 0 auto;
-    flex-direction: column;
+    color: white;
+    /* flex-direction: column; */
     /* justify-content: center; */
 }
 
@@ -40,30 +42,37 @@
     width: 100%;
 } */
 
+.form-title{
+    /* color: white; */
+    margin-top: 25px;
+}
+
 .form-img-back {
     display: flex;
     flex-direction: column;
+    justify-content: end;
+}
+.form-info-text{
+    max-width: 600px;
 }
 
-.form-phone-icon {
-    box-shadow: 0 0 10px -3px bisque;
-    border-radius: 7px;
-    max-width: fit-content;
-    padding: 10px;
-    margin-top: 20px;
-}
+ .form-phone-icon {
+   
+    margin-top: 30px;
+} 
 .form-phone-icon:hover {
     cursor: pointer;
 }
 
-.form-email-icon {
-    /* border: solid 1px bisque; */
+.form-email-icon, .form-location-icon, .form-phone-icon {
+ 
     box-shadow: 0 0 10px -3px bisque;
     border-radius: 7px;
     max-width: fit-content;
     padding: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+ 
+    margin-bottom: 15px;
 }
 .form-email-icon:hover {
     cursor: pointer;
@@ -73,12 +82,7 @@
     color: white;
 }
 
-.form-location-icon {
-    box-shadow: 0 0 10px -3px bisque;
-    border-radius: 7px;
-    max-width: fit-content;
-    padding: 10px;
-}
+
 
 .form-location-icon {
     cursor: pointer;
@@ -150,6 +154,9 @@ form button span {
     font-size: 20px;
     padding: 0;
 }
+.form-col{
+    margin-bottom: 30px;
+}
 
 .form-col svg {
     margin-right: 5px;
@@ -168,7 +175,7 @@ form button span {
 @media(min-width: 940px) {
     .form-back-form {
         max-width: 1200px;
-        margin: 30px auto 0;
+        /* margin: 30px auto 0; */
         display: flex;
         justify-content: space-between;
     }
@@ -181,13 +188,11 @@ form button span {
         flex: 0.9;
     }
 }
-@media(max-width: 414px) {
+@media(max-width: 470px) {
     .form-central-form {
-        margin-top: 15px;
+        margin-top: 25px;
     }
-    .form-central-form h1 {
-        font-size: 20px;
-    }
+  
     .form-img-back {
         margin-top: 20px;
     }

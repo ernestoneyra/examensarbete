@@ -63,7 +63,7 @@ const ContactMe = () => {
 
   return (
     <>
-      <div className="container">
+      <div className=" w-100">
         <div className="form-central-form">
           <div className="form-col">
             <h1 className="form-title">
@@ -85,18 +85,11 @@ const ContactMe = () => {
               <UilLinkedin color="#fff" />
             </a>
           </div>
-          
+          <div className="form-info-text">Om du vill veta mer om mig eller bara skapa en kontakt får du gärna kontakta mig via formuläret till höger eller telefon samt email. Ovan finns även länkar till min Facebook, LinkedIn och mitt GitHub repo.  </div>
           <div className="form-back-form">
-         
+          
             <div className="form-img-back">
-            <div className="form-info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-quia. Quo neque error repudiandae fuga? </div>
+            
               <div className="form-phone-icon">
                 <UilPhone href="+46762823562" /> +46 762823562
               </div>

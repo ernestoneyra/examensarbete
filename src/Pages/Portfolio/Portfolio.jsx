@@ -45,13 +45,13 @@ const Portfolio = ({ projects }) => {
   const mappedProjects = () => {
     return (
       <>
-      <div className=" w-100">
-      <div className="portfolo-heading">
+      <div className="w-100">
+      {/* <div className="portfolo-heading">
           obcaecati tenetur iure eius earum ut molestias architecto voluptate
           aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt
           quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas
           aliquid. Reprehenderit,
-        </div>
+        </div> */}
         <Carousel>
           {projects.map((project, id) => (
             <Carousel.Item>

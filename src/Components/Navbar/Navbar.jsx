@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className="app-navbar">
       <nav className={`menuNav ${show ? "showMenu" : ""} app-navbar-links`}>
         <NavLink
-          className={"hida"}
+          className={"hida top-hida"}
           onClick={() => closeMenu()}
           activeclassname="is-active"
           to={ROUTES.HOME}
