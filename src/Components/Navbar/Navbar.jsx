@@ -6,8 +6,6 @@ import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {
-
- 
   const [show, setShow] = useState(false);
 
   const handleToggle = () => {
@@ -49,7 +47,6 @@ const Navbar = () => {
             color: isActive ? "#FF5C00" : "#fff",
           })}
           to={ROUTES.PORTFOLIO}
-          
         >
           Portfolio
         </NavLink>
@@ -72,6 +69,16 @@ const Navbar = () => {
           to={ROUTES.CONTACT_ME}
         >
           Kontakta mig
+        </NavLink>
+        <NavLink
+          className={"hida"}
+          onClick={() => closeMenu()}
+          style={({ isActive }) => ({
+            color: isActive ? "#FF5C00" : "fff",
+          })}
+          to={ROUTES.TEST}
+        >
+          Test
         </NavLink>
       </nav>
     </div>
@@ -144,6 +151,15 @@ const Navbar = () => {
               to={ROUTES.CONTACT_ME}
             >
               Kontakta mig
+            </NavLink>
+            <NavLink
+              className={"navlink"}
+              style={({ isActive }) => ({
+                color: isActive ? "#FF5C00" : "#fff",
+              })}
+              to={ROUTES.TEST}
+            >
+              Test
             </NavLink>
           </nav>
         </div>

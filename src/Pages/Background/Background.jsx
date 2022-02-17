@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { ProgressBar } from "react-bootstrap";
 import { programmingSkillsDetails } from "../../Constants/staticData";
 import "./Background.css";
 
 const Background = ({ works, educations }) => {
+  const [show, setShow] = useState(false);
+  const [show2, setShow2] = useState(true);
+  const [show3, setShow3] = useState(false);
   /* console.log("interests", interests)
   console.log("works", works)
   console.log("educations", educations) */
@@ -68,16 +71,16 @@ const Background = ({ works, educations }) => {
     <>
       <div className="container">
         <div className="background-outer">
-          <main className="background-items">
-            <div className="background-skills">
-              <h4>Färdigheter</h4>
-              <div> {mappedSkillDetails()}</div>
-            </div>
-            <br />
+          <main className="background-items visible2">
             <div className="background-education">
               <h4>Utbildning</h4>
               <div> {mappedEducation()} </div>
             </div>{" "}
+            <br />
+            <div className="background-skills">
+              <h4>Färdigheter</h4>
+              <div> {mappedSkillDetails()}</div>
+            </div>
             <br />
             <div className="background-work">
               <h4>Jobb</h4>
@@ -86,6 +89,43 @@ const Background = ({ works, educations }) => {
           </main>
         </div>
       </div>
+      <main className="background-items hidden2">
+        <button className="background-toggle" onClick={() => setShow2(!show2)}>
+          Utbildning
+        </button>
+        <div>
+          {show2 && (
+            <div className="background-education">
+              <div> {mappedEducation()} </div>
+            </div>
+          )}
+        </div>
+
+        <br />
+        <button className="background-toggle" onClick={() => setShow(!show)}>
+          Färdigheter
+        </button>
+        <div>
+          {show && (
+            <div className="background-skills">
+              <div> {mappedSkillDetails()}</div>
+            </div>
+          )}
+        </div>
+
+        <br />
+
+        <button className="background-toggle" onClick={() => setShow3(!show3)}>
+          Jobb
+        </button>
+        <div>
+          {show3 && (
+            <div className="background-work">
+              <div>{mappedWorks()} </div>
+            </div>
+          )}
+        </div>
+      </main>
     </>
   );
 };

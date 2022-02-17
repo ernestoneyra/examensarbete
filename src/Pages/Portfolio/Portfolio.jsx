@@ -94,9 +94,12 @@ const Portfolio = ({ projects }) => {
       <div className="container">
         <div className="center">
           <div className="visible">{mappedProjects()}</div>
-          <div className="hidden">
+          
+        </div>
+      </div>
+      <div className="hidden2">
             <div>
-              <div className="portfolo-heading">
+              <div className="portfolio-heading">
                 obcaecati tenetur iure eius earum ut molestias architecto
                 voluptate aliquam nihil, eveniet aliquid culpa officia aut!
                 Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt
@@ -105,8 +108,6 @@ const Portfolio = ({ projects }) => {
             </div>
             <div>{mappedProjects2()}</div>{" "}
           </div>
-        </div>
-      </div>
     </>
   );
 };

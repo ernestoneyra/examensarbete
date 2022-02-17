@@ -12,12 +12,7 @@
   
   }
 
-  .background-items {
-/* display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center; */
-  }
+
   .background-education, .background-skills, .background-work{
     max-width: 800px;
     box-shadow: 0 0 10px -2px bisque;
@@ -28,21 +23,8 @@ justify-content: center; */
     padding: 15px;
   }
 
-  .background-education{
-     /*  border: solid 2px white; */
-    
-  /*   display: flex;
-    flex-direction: row; */
-    /* text-align: left; */
-    
-  }
-  
-  .background-skills{
-/* border: 1px solid white; */
-/* padding: 7px; */
-/* max-width: fit-content; */
 
-  }
+  
   .background-skills-container{
    
     min-width: 400px; 
@@ -61,7 +43,7 @@ justify-content: center; */
     align-items: center;
     justify-content: space-between;
     min-width: 300px;
-    /* flex: 0.3; */
+  
   }
 
  
@@ -69,23 +51,15 @@ justify-content: center; */
     /* border: solid 2px white; */
     min-width: min-content;
   }
-  /* .flex{
-      margin-bottom: 20px;
-  } */
+  
   .background-skills-rating {
-   /*  position: relative; */
-    /* height: 15px; */
+   
     
     width: 100%;
     
 }
 
- /*  .background-skills-rating  .background-skills-rating-bar {
-    height: 15px;
-    transition: 0.8s ease;
-    position: absolute;
-    background-color: #1f2235;
-} */
+
 
 @media(max-width: 866px) {
   .background-skills-skills{
@@ -104,5 +78,17 @@ justify-content: center; */
   /*  flex-wrap: wrap; */
    
    
+ }
+ .visible2{
+   display: none;
+ }
+ .hidden2{
+   display: block;
+   color: white;
+ }
+ .background-toggle{
+   width: 100%;
+  margin-top: 40px;
+  padding: 20px 0 20px 0;
  }
 }

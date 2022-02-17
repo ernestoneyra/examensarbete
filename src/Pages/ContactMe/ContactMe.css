@@ -1,7 +1,7 @@
 .form-central-form {
     max-width: 1200px;
     padding: 10px;
-    
+
     /*  display: flex; */
     /*  box-shadow: 0 0 20px -2px black; */
     border-radius: 12px;
@@ -42,7 +42,7 @@
     width: 100%;
 } */
 
-.form-title{
+.form-title {
     /* color: white; */
     margin-top: 25px;
 }
@@ -50,38 +50,39 @@
 .form-img-back {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
 }
-.form-info-text{
+.form-info-text {
     max-width: 600px;
 }
 
- .form-phone-icon {
-   
+.form-phone-icon {
+
     margin-top: 30px;
-} 
+}
 .form-phone-icon:hover {
     cursor: pointer;
 }
 
-.form-email-icon, .form-location-icon, .form-phone-icon {
- 
+.form-email-icon,
+.form-location-icon,
+.form-phone-icon {
+
     box-shadow: 0 0 10px -3px bisque;
     border-radius: 7px;
     max-width: fit-content;
     padding: 10px;
     margin-top: 15px;
- 
+
     margin-bottom: 15px;
 }
 .form-email-icon:hover {
     cursor: pointer;
 }
-.form-email-icon a{
+.form-email-icon a {
     text-decoration: none;
     color: white;
 }
-
 
 
 .form-location-icon {
@@ -132,21 +133,23 @@ form input:focus {
 }
 
 form button {
-   /*  margin-top: 15px; */
+    /*  margin-top: 15px; */
     padding: 5px;
-   /*  outline: none; */
+    /*  outline: none; */
     width: 160px;
     border-radius: 15px;
     background-color: white;
     align-items: center;
     justify-content: center;
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
 }
 
 form button:hover {
-    border: 2px solid var(--orange);
+
     color: white;
     transition: all ease 0.6s;
-    background-color: var(--orange);
+
 }
 
 form button span {
@@ -154,7 +157,7 @@ form button span {
     font-size: 20px;
     padding: 0;
 }
-.form-col{
+.form-col {
     margin-bottom: 30px;
 }
 
@@ -167,7 +170,7 @@ form button span {
     transition: ease 0.6s;
 }
 
-.star{
+.star {
     color: red;
 }
 
@@ -192,7 +195,7 @@ form button span {
     .form-central-form {
         margin-top: 25px;
     }
-  
+
     .form-img-back {
         margin-top: 20px;
     }

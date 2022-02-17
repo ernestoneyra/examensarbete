@@ -10,7 +10,7 @@
     margin-right: 200px;
     display: flex;
     flex-direction: row;
-    align-items: end;
+    align-items: flex-end;
     
 }
 .aboutme-central img{
@@ -37,15 +37,16 @@ li span{
    /*  outline: none; */
     width: 160px;
     border-radius: 15px;
-    background-color: white;
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
     align-items: center;
     justify-content: center;
 }
 .aboutme-download-btn:hover{
-    border: 2px solid var(--orange);
+  /*   border: 2px solid var(--orange); */
     color: white;
     transition: all ease 0.6s;
-    background-color: var(--orange);
+    /* background-color: white; */
 }
 .aboutme-download-btn span{
     margin-right: 15px;

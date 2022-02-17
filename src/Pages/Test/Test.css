@@ -1,0 +1,12 @@
+.test-button{
+    width: 200px;
+    color: white;
+    background: red;
+    padding: 20px;
+}
+
+.hello{
+    animation: ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
