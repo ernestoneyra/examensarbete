@@ -60,9 +60,9 @@
 
     margin-top: 30px;
 }
-.form-phone-icon:hover {
+/* .form-phone-icon:hover {
     cursor: pointer;
-}
+} */
 
 .form-email-icon,
 .form-location-icon,
@@ -85,7 +85,7 @@
 }
 
 
-.form-location-icon {
+.form-location-icon:hover {
     cursor: pointer;
 }
 

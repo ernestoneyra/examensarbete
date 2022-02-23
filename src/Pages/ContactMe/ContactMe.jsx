@@ -50,8 +50,7 @@ const ContactMe = () => {
         setMessage("");
       } else if (res.status === 200) {
         setBanner(res.data.msg);
-        setStar(true);
-
+        setStar(false);
         setName("");
         setEmail("");
         setMessage("");
