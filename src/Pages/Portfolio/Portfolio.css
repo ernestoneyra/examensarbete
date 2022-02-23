@@ -1,101 +1,74 @@
 .projects-outer img {
- 
-   /*  align-items: center;
-    justify-content: center; */
-  
-    height: 80%;
-  width: 80%;
-  }
-  /* .photo-background {
-    height: 100%;
-    width: 100%;
- 
-  
-  }
-  .photo-background:hover {
-    transform: scale(1.07);
-    transition: 1s ease-out;
-  } */
 
-  /* .projects-outer{
-      border: 1px solid white;
+  
+
+    height: 80%;
     width: 80%;
-   margin-left: 10%;
-     
-  } */
-  .footer{
-      display: flex;
-      align-items: center;
+}
+
+
+.projects-outer {
+    text-align: center;
+
+}
+.footer {
+    display: flex;
+    align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-   
-  }
 
-  .center{
+}
+
+.center {
     align-items: center;
     justify-content: center;
 
-  }
-.hidden{
+}
+.hidden2 {
     display: none;
 }
-  .container{
-    /* margin-right: 4%;
-    margin-left: 4%; */
-     color: white; 
-   
- }
-
- .description-text{
-     font-size: 16px;
+.container {
     
-    
- }
+    color: white;
+    max-width: 1200px;
+    max-height: auto;
+    padding: 10px;
+    margin-top: 15px !important;
 
- .description{
-     margin-top: 4px;
-   /* border: 2px solid white;*/
-   width: 80%;
-   margin-left: 10%; 
-  
-  
-     
- }
+}
 
- @media only screen and (max-width: 867px){
-    /* .container{
-        margin-right: 0%;
-        margin-left: 0%;
-     }
+.description-text {
+    font-size: 16px;
+
+
+}
+
+.description {
+    margin-top: 4px;
+    /* border: 2px solid white;*/
+    width: 80%;
+    margin-left: 10%;
+}
+
+.portfolio-heading {
+
+    margin-bottom: 10px;
+    max-width: 50%;
+}
+
+@media(max-width: 867px) {
     
-     .description{
-        margin-top: 9px;
-      border: 2px solid white;
-      width: 100%;
-      margin-left: 0%;
-     
+    .hidden2 {
+        display: block;
+        color: white;
     }
-    .projects-outer img {
- 
-        align-items: center;
-        justify-content: center;
-      
-        height: 100%;
-      width: 100%;
-      }
-      .projects-outer{
-        align-items: center;
-        justify-content: center;
-      
-        height: 100%;
-      width: 90%;
-      margin-left: 5%;
-      
-      } */
-      .hidden{
-          display: block;
-      }
-      .visible{
-          display: none;
-      }
- } 
+    .visible {
+        display: none;
+    }
+    .hidden2 .portfolio-heading {
+      /*   margin-top: 20px;
+        margin-bottom: 30px; */
+     margin: 20px 50px 30px 62px;
+        max-width: 100%;
+    }
+}

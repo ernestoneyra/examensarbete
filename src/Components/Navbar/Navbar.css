@@ -56,8 +56,13 @@
         display: grid;
         justify-content: right;
         flex-direction: column;
+        
       
        
+    }
+    .showMenu{
+      padding-top: 50px;
+      
     }
    /*  .hamburger{
         font-size: 60px;
@@ -109,7 +114,7 @@
   
   .hida {
     display: block;
-    padding: 10px 40px;
+    padding: 10px;
     text-decoration: none;
     color: #3fffd2;
     /* text-transform: uppercase; */

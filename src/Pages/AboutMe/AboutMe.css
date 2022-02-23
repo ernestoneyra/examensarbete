@@ -1,0 +1,131 @@
+/* .aboutme-outer {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+   
+} */
+.aboutme-mapped{
+    max-width: 1200px;
+    text-align: left;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+}
+.aboutme-central img{
+    margin-top: 16px;
+    max-width: 300px;
+  height: auto;
+}
+li{
+    color: var(--orange);
+    font-size: 20px;
+    
+}
+.aboutme-list{
+    margin-top: 70px;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+li span{
+    color: white;
+}
+.aboutme-download-btn{
+    /* margin-top: 15px; */
+    padding: 5px;
+   /*  outline: none; */
+    width: 160px;
+    border-radius: 15px;
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    align-items: center;
+    justify-content: center;
+}
+.aboutme-download-btn:hover{
+  /*   border: 2px solid var(--orange); */
+    color: white;
+    transition: all ease 0.6s;
+    /* background-color: white; */
+}
+.aboutme-download-btn span{
+    margin-right: 15px;
+    font-size: 20px;
+    padding: 0;
+}
+
+.aboutme-central{
+    padding: 10px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+@media (max-width: 1100px){
+    .aboutme-mapped{
+        display: block;
+        
+    }
+    .aboutme-resp-button{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 867px){
+    .aboutme-central{
+        padding: 10px;
+        display: flex;
+        align-items: right;
+        justify-content: right;
+       flex-direction: column;
+    }
+    .aboutme-mapped{
+       margin-right: 200px;
+       margin-bottom: 30px;
+    }
+    .aboutme-central img{
+        max-width: 250px;
+    
+    }
+    .aboutme-list{
+        margin-top: 0px;
+       
+    }
+    .aboutme-resp-button{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 600px){
+    .aboutme-central{
+        padding: 10px;
+        display: flex;
+        align-items: right;
+        justify-content: right;
+       
+    }
+    .aboutme-mapped{
+       margin-right: auto;
+    }
+    .aboutme-central img{
+        max-width: 250px;
+    
+    }
+}
+
+/* @media (max-width: 375px){
+    .aboutme-central{
+        padding: 10px;
+        display: flex;
+        align-items: right;
+        justify-content: right;
+       
+    }
+    .aboutme-mapped{
+       margin-right: auto;
+    }
+    .aboutme-central img{
+        max-width: 250px;
+    
+    }
+} */
