@@ -13,6 +13,7 @@ import AboutMe from "./Pages/AboutMe/AboutMe";
 import Navbar from "./Components/Navbar/Navbar";
 import Profile from "./Pages/Profile/Profile";
 import Test from "./Pages/Test/Test";
+import Footer from "./Components/Footer/Footer";
 
 initFontAwesome();
 
@@ -81,7 +82,8 @@ function App() {
  
 
   return (
-    <div className="App">
+    <>
+<div className="App">
       <Router>
         <Navbar  />
         <Routes>
@@ -93,8 +95,13 @@ function App() {
           <Route path={ROUTES.ABOUT_ME} element={<AboutMe profiles={profile} interests={interests} />} />
           <Route path={ROUTES.TEST} element={<Test />}/>
         </Routes>
+       
       </Router>
+      <Footer />
     </div>
+    
+    </>
+    
   );
 }
 

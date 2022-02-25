@@ -84,7 +84,7 @@ const ContactMe = () => {
               <UilLinkedin color="#fff" />
             </a>
           </div>
-          <div className="form-info-text">Om du vill veta mer om mig eller bara skapa en kontakt får du gärna kontakta mig via formuläret till höger eller telefon samt email. Ovan finns även länkar till min Facebook, LinkedIn och mitt GitHub repo.  </div>
+          <div className="form-info-text">Om du vill veta mer om mig eller bara skapa en kontakt får du gärna kontakta mig via formuläret till höger eller telefon samt email. Ovan finns även länkar till min Facebook, GitHub repo och LinkedIn profil</div>
           <div className="form-back-form">
           
             <div className="form-img-back">

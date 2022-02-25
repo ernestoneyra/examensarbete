@@ -61,18 +61,15 @@ const Portfolio = ({ projects }) => {
                   src={project.image}
                   alt={project.alt}
                 />
-
                 <div>
                   <h2>{project.title}</h2>
                   <span>{project.subHeading}</span>
                 </div>
-
                 <div className="description">
                   <span className="description-text">
                     {project.description}{" "}
                   </span>
                 </div>
-
                 <div className="footer">
                   <span>{`${project.duration}  ${project.tutorial}`}</span>
                   <a href={project.link} className="icon">
@@ -99,12 +96,12 @@ const Portfolio = ({ projects }) => {
       </div>
       <div className="hidden2">
             <div>
-              <div className="portfolio-heading">
+              {/* <div className="portfolio-heading">
                 obcaecati tenetur iure eius earum ut molestias architecto
                 voluptate aliquam nihil, eveniet aliquid culpa officia aut!
                 Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt
                 ipsum debitis quas aliquid. Reprehenderit,
-              </div>
+              </div> */}
             </div>
             <div>{mappedProjects2()}</div>{" "}
           </div>

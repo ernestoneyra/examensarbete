@@ -14,6 +14,7 @@ const Profile = () => {
                 <a
                   href="https://www.facebook.com/ernesto.neyra.18/"
                   alt="facebook link"
+                  
                 >
                   <UilFacebook color="#fff" className="icon" />
                 </a>
@@ -22,7 +23,7 @@ const Profile = () => {
                 </a>
                 <a
                   href="https://www.linkedin.com/in/ernesto-neyra"
-                  alt="linkedin lik"
+                  alt="linkedin link"
                 >
                   <UilLinkedin color="#fff" className="icon" />
                 </a>
@@ -30,9 +31,10 @@ const Profile = () => {
             </div>
             <main>
               <div className="profile-details-name">
-                <span className="primary-text">Hej, mitt namn är {""}
-                <span className="highlighted-text">Ernesto Neyra</span></span>
-                
+                <span className="primary-text">
+                  Hej, mitt namn är {""}
+                  <span className="highlighted-text">Ernesto Neyra</span>
+                </span>
               </div>
 
               <div className="profile-details-role">
