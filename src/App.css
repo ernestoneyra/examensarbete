@@ -15,7 +15,7 @@ body,
    /*  height: 100vh; */
     overflow: auto;
     background-color: #262626 !important;
-    color: var(--white);
+    color: var(--white) !important;
   } 
   /*   .pages-background{
   background-color: black;

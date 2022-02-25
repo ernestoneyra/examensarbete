@@ -10,7 +10,7 @@ const Background = ({ works, educations }) => {
   /* console.log("interests", interests)
   console.log("works", works)
   console.log("educations", educations) */
-  console.log("programmingSkillsDetails", programmingSkillsDetails);
+  /* console.log("programmingSkillsDetails", programmingSkillsDetails); */
 
   const mappedSkillDetails = () => {
     return programmingSkillsDetails.map((skills, i) => {

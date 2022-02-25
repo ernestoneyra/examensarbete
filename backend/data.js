@@ -76,14 +76,14 @@ const data = {
         "Utbildning inom frontend utveckling där jag fick lära mig grunderna i HTML, CSS, JavaScript, ReactJS, NodeJS, MongoDB, SCRUM, UX/UI och Strapi CMS. Varje kurs innehöll en application som examinering.",
       duration: "2020-2022",
     },
-    /* {
+    {
       title: "SAMU & ISI",
       city: "Tokyo",
       subHeading: "Japanska språkstudier",
       description:
         "Spenderade 2 år i Tokyo och lärde mig Japanska i två språkskolor. Min nivå just nu är på daglig konversation. Det var väldigt roligt, men väldigt svårt när man närmar sig avancerad nivå.",
       duration: "2016-2018",
-    }, */
+    },
     {
       title: "Mittuniversitetet",
       city: "Sundsvall",
@@ -163,7 +163,7 @@ const data = {
     {
       name: "Ernesto Neyra Jamkov",
       description:
-        "En framtida junior front-end utvecklare som söker avlsutar sina studier sommaren 2022.  Har jobbat med UI/UX och Figma under studietiden. Jag har erfarenhet att skapa småa appar med MERN stacken. Jag vill fördjupa mig mer inom MERN stacken då jag har mycket mer att lära mig, men är öppen att utvidga kompetensen till andra språk och ramverk samt backend. Söker tjänst inom .... i frmatiden vill jag jobba med... ",
+        "En framtida junior front-end utvecklare som söker avslutar sina studier sommaren 2022.  Har jobbat med UI/UX och Figma under studietiden. Jag har erfarenhet att skapa små appar med MERN stacken. Jag vill fördjupa mig mer inom MERN stacken då jag har mycket mer att lära mig, men är öppen att utvidga kompetensen till andra språk och ramverk samt backend. Söker tjänst inom .... i framtiden vill jag jobba med... ",
       traits: {
         one: "React utvecklare",
         two: "Arbetat med MERN stacken",

@@ -41,16 +41,18 @@ const AboutMe = ({ interests, profiles }) => {
         <div className="aboutme-outer">
           <div className="aboutme-central">
             <div className="aboutme-mapped">
-             <div>{mappedInfo()}{" "}</div> 
+              <div>{mappedInfo()} </div>
               <div className="aboutme-resp-button">
                 <a href="Ernesto.Neyra.CV.pdf" download="Ernesto.Neyra.CV.pdf">
-                  <button className="aboutme-download-btn"><span>Hämta CV</span></button>
+                  <button className="aboutme-download-btn">
+                    <span>Hämta CV</span>
+                  </button>
                 </a>{" "}
               </div>
             </div>
 
             <div>
-              <img src={aboutMeImg} alt="profile" className="aboutme-img" />
+              <img src={aboutMeImg} alt="aboutme-profile" className="aboutme-img" />
             </div>
           </div>
         </div>
