@@ -11,6 +11,7 @@ const Background = ({ works, educations }) => {
   console.log("works", works)
   console.log("educations", educations) */
   /* console.log("programmingSkillsDetails", programmingSkillsDetails); */
+  /* Test to see */
 
   const mappedSkillDetails = () => {
     return programmingSkillsDetails.map((skills, i) => {
@@ -26,6 +27,7 @@ const Background = ({ works, educations }) => {
         </>
       );
     });
+    
   };
 
   const mappedEducation = () => {
