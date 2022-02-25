@@ -11,7 +11,7 @@ const userRouter = require("./routes/userRouter");
 const workRouter = require("./routes/workRouter");
 
 mongoose.connect(
-  process.env.DATABASE_URL,
+  "mongodb://localhost/pastwork",
   {
     useNewUrlParser: true,
   },
