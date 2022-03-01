@@ -70,7 +70,7 @@ const Navbar = () => {
         >
           Kontakta mig
         </NavLink>
-        <NavLink
+       {/*  <NavLink
           className={"hida"}
           onClick={() => closeMenu()}
           style={({ isActive }) => ({
@@ -79,7 +79,7 @@ const Navbar = () => {
           to={ROUTES.TEST}
         >
           Test
-        </NavLink>
+        </NavLink> */}
       </nav>
     </div>
   );
@@ -152,7 +152,7 @@ const Navbar = () => {
             >
               Kontakta mig
             </NavLink>
-            <NavLink
+            {/* <NavLink
               className={"navlink"}
               style={({ isActive }) => ({
                 color: isActive ? "#FF5C00" : "#fff",
@@ -160,7 +160,7 @@ const Navbar = () => {
               to={ROUTES.TEST}
             >
               Test
-            </NavLink>
+            </NavLink> */}
           </nav>
         </div>
       </div>
