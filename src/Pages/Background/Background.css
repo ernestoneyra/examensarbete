@@ -1,94 +1,90 @@
 .background-container {
     display: flex;
-   /*  align-items: center;
+    /*  align-items: center;
     text-align: center; */
     justify-content: center;
     height: 10%;
-   
+
     max-width: 800px;
     margin-top: 7%;
     color: var(--white);
-   
-  
-  }
 
 
-  .background-education, .background-skills, .background-work{
+}
+
+
+.background-education,
+.background-skills,
+.background-work {
     max-width: 800px;
     box-shadow: 0 0 10px -2px bisque;
     border-radius: 7px;
-    padding: 10px;
+    padding: 15px;
     margin-top: 20px;
     background-color: cadetblue;
-    padding: 15px;
-  }
+}
 
 
-  
-  .background-skills-container{
-   
-    min-width: 400px; 
- 
-     display: flex;
-    flex-direction:row;
+.background-skills-container {
+
+    min-width: 400px;
+
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-   /*  flex-wrap: wrap; */
-    
-    
-  }
- 
-  .background-skills-skills{
+    /*  flex-wrap: wrap; */
+
+
+}
+
+.background-skills-skills {
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-width: 300px;
-  
-  }
 
- 
-  .background-work{
-    /* border: solid 2px white; */
-    min-width: min-content;
-  }
-  
-  .background-skills-rating {
-   
-    
-    width: 100%;
-    
 }
 
+
+.background-work {
+    /* border: solid 2px white; */
+    min-width: min-content;
+}
+
+.background-skills-rating {
+
+
+    width: 100%;
+
+}
 
 
 @media(max-width: 866px) {
-  .background-skills-skills{
-  
-   min-width: 200px;
-     flex: 1;
-  }
+    .background-skills-skills {
+
+        min-width: 200px;
+        flex: 1;
+    }
 }
 
-@media(max-width: 520px){
-  .background-skills-container{
-  
-  display: block;
-    min-width: 300px;
-   
-  /*  flex-wrap: wrap; */
-   
-   
- }
- .visible2{
-   display: none;
- }
- .hidden2{
-   display: block;
-   color: white;
- }
- .background-toggle{
-   width: 100%;
-  margin-top: 40px;
-  padding: 20px 0 20px 0;
- }
+@media(max-width: 520px) {
+    .background-skills-container {
+
+        display: block;
+        min-width: 300px;
+
+    }
+    .visible2 {
+        display: none;
+    }
+    .hidden2 {
+        display: block;
+        color: white;
+    }
+    .background-toggle {
+        width: 100%;
+        margin-top: 40px;
+        padding: 20px 0;
+    }
 }

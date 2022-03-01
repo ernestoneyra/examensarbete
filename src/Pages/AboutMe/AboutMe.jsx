@@ -8,7 +8,7 @@ const AboutMe = ({ interests, profiles }) => {
   const mappedInfo = () => {
     return profiles.map((profile, i) => {
       let { description, name, traits } = profile;
-      let { one, two, three, four } = traits;
+      let { one, two, three} = traits;
 
       return (
         <>
@@ -24,9 +24,6 @@ const AboutMe = ({ interests, profiles }) => {
               </li>
               <li>
                 <span>{three}</span>{" "}
-              </li>
-              <li>
-                <span>{four}</span>{" "}
               </li>
             </ul>
           </div>
@@ -52,7 +49,11 @@ const AboutMe = ({ interests, profiles }) => {
             </div>
 
             <div>
-              <img src={aboutMeImg} alt="aboutme-profile" className="aboutme-img" />
+              <img
+                src={aboutMeImg}
+                alt="aboutme-profile"
+                className="aboutme-img"
+              />
             </div>
           </div>
         </div>

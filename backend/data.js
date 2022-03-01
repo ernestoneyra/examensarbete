@@ -168,7 +168,6 @@ const data = {
         one: "React utvecklare",
         two: "Arbetat med MERN stacken",
         three: "Avslutar studierna juni 2022",
-        four: "Lägg till något här",
       },
     },
   ],
